@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #888888, #cccccc, #f0f0f0, #cccccc, #888888);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.additional-info {
+    display: none;
+}
+
+.btn-outline-primary {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    color: black;
+    font-size: 24px;
+    background-color: transparent;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: black;
+    transition: background-color 1s ease;
+}
+
+.expand-btn {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.expand-btn::after {
+    content: ' ►';
+}
+
+.expand-btn.collapsed::after {
+    content: ' ▼';
+}
+
+h1 {
+    text-align: center  ;
+}
+
+@media (max-width: 720px) {
+    .container {
+        padding: 10px;
+        margin: 20px 10px;
+    }
+}

@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(gainsboro, lightgray, gainsboro);
+}
+
+.card {
+    width: auto;
+    height: auto;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-container form {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="search"] {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 720px) {
+    body {
+        background: linear-gradient(gainsboro, lightgray, gainsboro);
+    }
+
+    .card {
+        width: 100%;
+    }
+}

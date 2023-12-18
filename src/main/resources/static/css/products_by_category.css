@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to right, lightgray, lightblue, lightskyblue, lightblue, lightgray);
+}
+
+.row {
+    margin: auto;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.counter button {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.counter input {
+    width: 40px;
+    text-align: center;
+    border: none;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn-container .counter {
+    margin-left: 10px;
+}

@@ -1,0 +1,119 @@
+body {
+    background-color: darkslategrey;
+    color: black;
+    margin-top: 20px;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-body {
+    padding: 0;
+    background-color: transparent;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+    color: black;
+}
+
+h1 {
+    padding: 20px;
+    color: white;
+}
+
+th:first-child,
+td:first-child {
+    width: 60px;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 30%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 15%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 15%;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+    width: 15%;
+}
+
+th:last-child,
+td:last-child {
+    width: 60px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.actions button {
+    margin: 5px;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter button {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.counter input {
+    width: 40px;
+    text-align: center;
+    border: none;
+}
+
+.empty-cart-message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.image-arrow {
+    max-width: 30px; margin: 20px 0 0 20px;
+}
+
+.image-update, .btn img {
+    max-width: 30px;
+}
