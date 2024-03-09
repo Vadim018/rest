@@ -1,0 +1,40 @@
+form {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
